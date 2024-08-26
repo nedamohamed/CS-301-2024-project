@@ -1,0 +1,100 @@
+Test Case 1:
+Number of Variables: 6, Number of Clauses: 12, k: 1
+Brute-Force Result: None, Time: 0.000054 seconds
+Heuristic Satisfied Clauses: 12, Time: 0.000002 seconds
+
+Test Case 2:
+Number of Variables: 4, Number of Clauses: 8, k: 7
+Brute-Force Result: (False, False, True, False), Time: 0.000003 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000002 seconds
+
+Test Case 3:
+Number of Variables: 4, Number of Clauses: 8, k: 6
+Brute-Force Result: (False, False, True, True), Time: 0.000002 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000001 seconds
+
+Test Case 4:
+Number of Variables: 2, Number of Clauses: 4, k: 3
+Brute-Force Result: (False, False), Time: 0.000000 seconds
+Heuristic Satisfied Clauses: 4, Time: 0.000001 seconds
+
+Test Case 5:
+Number of Variables: 2, Number of Clauses: 4, k: 2
+Brute-Force Result: (False, True), Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 4, Time: 0.000001 seconds
+
+Test Case 6:
+Number of Variables: 5, Number of Clauses: 8, k: 1
+Brute-Force Result: None, Time: 0.000018 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000001 seconds
+
+Test Case 7:
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Brute-Force Result: (True, False), Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 3, Time: 0.000001 seconds
+
+Test Case 8:
+Number of Variables: 5, Number of Clauses: 8, k: 5
+Brute-Force Result: (False, True, False, False, True), Time: 0.000006 seconds
+Heuristic Satisfied Clauses: 7, Time: 0.000002 seconds
+
+Test Case 9:
+Number of Variables: 2, Number of Clauses: 4, k: 1
+Brute-Force Result: None, Time: 0.000002 seconds
+Heuristic Satisfied Clauses: 2, Time: 0.000001 seconds
+
+Test Case 10:
+Number of Variables: 3, Number of Clauses: 5, k: 1
+Brute-Force Result: (True, True, False), Time: 0.000004 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000001 seconds
+
+Test Case 11:
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Brute-Force Result: (False, True), Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 2, Time: 0.000001 seconds
+
+Test Case 12:
+Number of Variables: 2, Number of Clauses: 3, k: 1
+Brute-Force Result: (True, False), Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 3, Time: 0.000001 seconds
+
+Test Case 13:
+Number of Variables: 5, Number of Clauses: 9, k: 4
+Brute-Force Result: (False, False, True, True, False), Time: 0.000005 seconds
+Heuristic Satisfied Clauses: 9, Time: 0.000001 seconds
+
+Test Case 14:
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Brute-Force Result: None, Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 3, Time: 0.000000 seconds
+
+Test Case 15:
+Number of Variables: 4, Number of Clauses: 7, k: 4
+Brute-Force Result: (False, False, False, False), Time: 0.000001 seconds
+Heuristic Satisfied Clauses: 7, Time: 0.000002 seconds
+
+Test Case 16:
+Number of Variables: 5, Number of Clauses: 9, k: 2
+Brute-Force Result: None, Time: 0.000020 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000001 seconds
+
+Test Case 17:
+Number of Variables: 6, Number of Clauses: 12, k: 7
+Brute-Force Result: (False, False, False, False, True, False), Time: 0.000003 seconds
+Heuristic Satisfied Clauses: 9, Time: 0.000002 seconds
+
+Test Case 18:
+Number of Variables: 3, Number of Clauses: 6, k: 3
+Brute-Force Result: (True, False, False), Time: 0.000003 seconds
+Heuristic Satisfied Clauses: 5, Time: 0.000001 seconds
+
+Test Case 19:
+Number of Variables: 6, Number of Clauses: 10, k: 6
+Brute-Force Result: (False, False, False, False, True, False), Time: 0.000003 seconds
+Heuristic Satisfied Clauses: 9, Time: 0.000001 seconds
+
+Test Case 20:
+Number of Variables: 6, Number of Clauses: 9, k: 8
+Brute-Force Result: (False, False, False, True, False, True), Time: 0.000005 seconds
+Heuristic Satisfied Clauses: 7, Time: 0.000001 seconds
+

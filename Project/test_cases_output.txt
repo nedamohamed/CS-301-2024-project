@@ -1,100 +1,100 @@
 Test Case 1:
-Number of Variables: 6, Number of Clauses: 10, k: 4
-Generated Clauses: [((1, True), (3, True)), ((2, True), (3, True)), ((1, False), (5, False)), ((2, False), (0, False)), ((3, False), (1, False)), ((3, False), (1, False)), ((2, False), (1, False)), ((3, False), (1, False)), ((2, True), (5, True)), ((3, True), (5, True))]
-Assignment satisfying exactly 4 clauses: (True, True, True, True, False, True)
+Number of Variables: 2, Number of Clauses: 3, k: 1
+Generated Clauses: [((0, True), (1, False)), ((1, False), (0, False)), ((1, False), (0, True))]
+Assignment satisfying exactly 1 clauses: (False, True)
 
 Test Case 2:
-Number of Variables: 6, Number of Clauses: 9, k: 8
-Generated Clauses: [((0, True), (2, False)), ((2, False), (1, False)), ((2, False), (3, False)), ((1, False), (4, True)), ((5, False), (3, False)), ((5, False), (4, False)), ((2, True), (5, True)), ((1, False), (4, True)), ((4, True), (3, False))]
-Assignment satisfying exactly 8 clauses: (False, False, False, False, False, False)
+Number of Variables: 5, Number of Clauses: 8, k: 4
+Generated Clauses: [((2, False), (1, True)), ((3, True), (0, False)), ((0, False), (3, False)), ((2, False), (3, False)), ((0, True), (2, True)), ((0, True), (1, False)), ((2, False), (1, False)), ((0, True), (2, True))]
+No assignment satisfies exactly 4 clauses.
 
 Test Case 3:
-Number of Variables: 4, Number of Clauses: 8, k: 4
-Generated Clauses: [((1, False), (3, True)), ((2, False), (0, False)), ((3, False), (2, False)), ((2, False), (1, False)), ((3, False), (1, True)), ((3, False), (0, True)), ((2, False), (3, False)), ((0, False), (1, True))]
-Assignment satisfying exactly 4 clauses: (False, False, True, True)
+Number of Variables: 5, Number of Clauses: 10, k: 8
+Generated Clauses: [((0, True), (1, False)), ((4, False), (1, False)), ((2, False), (1, True)), ((4, True), (3, False)), ((2, False), (3, False)), ((0, False), (3, True)), ((3, False), (4, True)), ((4, False), (2, True)), ((3, False), (2, True)), ((4, True), (2, True))]
+Assignment satisfying exactly 8 clauses: (False, False, False, True, True)
 
 Test Case 4:
-Number of Variables: 3, Number of Clauses: 6, k: 2
-Generated Clauses: [((1, True), (2, False)), ((2, False), (0, True)), ((0, True), (2, False)), ((0, False), (1, False)), ((2, True), (1, False)), ((2, True), (1, False))]
-No assignment satisfies exactly 2 clauses.
+Number of Variables: 4, Number of Clauses: 6, k: 5
+Generated Clauses: [((3, True), (0, True)), ((2, True), (0, True)), ((2, True), (0, False)), ((2, True), (1, True)), ((2, True), (3, True)), ((0, True), (3, True))]
+Assignment satisfying exactly 5 clauses: (False, True, False, True)
 
 Test Case 5:
-Number of Variables: 2, Number of Clauses: 3, k: 2
-Generated Clauses: [((0, False), (1, True)), ((1, False), (0, True)), ((0, True), (1, False))]
-Assignment satisfying exactly 2 clauses: (True, False)
-
-Test Case 6:
-Number of Variables: 6, Number of Clauses: 9, k: 5
-Generated Clauses: [((5, False), (1, False)), ((3, False), (0, True)), ((4, True), (2, False)), ((2, True), (1, True)), ((0, False), (1, True)), ((0, False), (1, False)), ((1, True), (5, True)), ((3, False), (4, False)), ((1, True), (3, True))]
-Assignment satisfying exactly 5 clauses: (False, False, False, True, True, False)
-
-Test Case 7:
-Number of Variables: 3, Number of Clauses: 5, k: 3
-Generated Clauses: [((2, True), (1, False)), ((2, True), (1, False)), ((2, True), (1, False)), ((2, True), (0, True)), ((2, False), (1, False))]
-No assignment satisfies exactly 3 clauses.
-
-Test Case 8:
-Number of Variables: 3, Number of Clauses: 6, k: 5
-Generated Clauses: [((2, True), (0, True)), ((2, True), (1, False)), ((0, False), (2, False)), ((0, True), (1, True)), ((0, True), (2, True)), ((2, False), (0, True))]
-Assignment satisfying exactly 5 clauses: (False, True, True)
-
-Test Case 9:
-Number of Variables: 4, Number of Clauses: 8, k: 4
-Generated Clauses: [((1, False), (2, False)), ((1, False), (3, True)), ((2, False), (1, True)), ((3, True), (2, True)), ((3, False), (0, False)), ((3, False), (1, True)), ((3, False), (0, True)), ((1, True), (3, False))]
-Assignment satisfying exactly 4 clauses: (False, False, True, True)
-
-Test Case 10:
-Number of Variables: 6, Number of Clauses: 11, k: 6
-Generated Clauses: [((0, True), (4, True)), ((0, True), (1, True)), ((3, True), (0, True)), ((3, False), (1, False)), ((1, True), (5, True)), ((4, False), (2, True)), ((3, False), (4, True)), ((1, True), (5, True)), ((2, True), (1, True)), ((0, False), (5, False)), ((1, False), (2, False))]
-Assignment satisfying exactly 6 clauses: (False, False, False, True, True, False)
-
-Test Case 11:
 Number of Variables: 2, Number of Clauses: 4, k: 2
-Generated Clauses: [((1, False), (0, False)), ((1, False), (0, True)), ((1, False), (0, False)), ((1, True), (0, False))]
-Assignment satisfying exactly 2 clauses: (True, True)
-
-Test Case 12:
-Number of Variables: 3, Number of Clauses: 6, k: 2
-Generated Clauses: [((0, False), (1, False)), ((2, True), (1, False)), ((2, True), (1, True)), ((0, False), (2, False)), ((2, False), (0, True)), ((1, True), (2, False))]
+Generated Clauses: [((0, False), (1, False)), ((1, True), (0, True)), ((1, True), (0, False)), ((0, True), (1, False))]
 No assignment satisfies exactly 2 clauses.
 
-Test Case 13:
+Test Case 6:
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Generated Clauses: [((1, True), (0, False)), ((0, False), (1, False)), ((0, True), (1, False))]
+Assignment satisfying exactly 2 clauses: (False, True)
+
+Test Case 7:
+Number of Variables: 6, Number of Clauses: 7, k: 4
+Generated Clauses: [((1, True), (0, False)), ((1, False), (3, False)), ((4, False), (3, True)), ((5, True), (2, False)), ((2, False), (0, True)), ((3, True), (4, True)), ((4, True), (3, True))]
+Assignment satisfying exactly 4 clauses: (False, False, True, False, False, True)
+
+Test Case 8:
+Number of Variables: 6, Number of Clauses: 8, k: 6
+Generated Clauses: [((0, True), (2, True)), ((3, True), (1, True)), ((1, True), (3, False)), ((4, False), (1, True)), ((5, False), (4, False)), ((3, False), (4, False)), ((2, False), (1, False)), ((1, False), (4, False))]
+Assignment satisfying exactly 6 clauses: (False, False, False, False, False, False)
+
+Test Case 9:
 Number of Variables: 2, Number of Clauses: 4, k: 2
-Generated Clauses: [((1, False), (0, False)), ((0, True), (1, True)), ((0, False), (1, True)), ((1, True), (0, False))]
-Assignment satisfying exactly 2 clauses: (True, False)
+Generated Clauses: [((1, True), (0, True)), ((0, False), (1, False)), ((0, False), (1, False)), ((1, True), (0, True))]
+Assignment satisfying exactly 2 clauses: (False, False)
+
+Test Case 10:
+Number of Variables: 6, Number of Clauses: 9, k: 1
+Generated Clauses: [((5, False), (4, True)), ((2, True), (5, False)), ((1, False), (2, True)), ((5, False), (1, False)), ((5, True), (3, True)), ((4, False), (1, True)), ((0, True), (3, False)), ((3, False), (4, True)), ((5, True), (2, True))]
+No assignment satisfies exactly 1 clauses.
+
+Test Case 11:
+Number of Variables: 3, Number of Clauses: 6, k: 1
+Generated Clauses: [((0, False), (2, False)), ((2, False), (1, True)), ((2, False), (1, False)), ((0, True), (2, True)), ((0, False), (2, True)), ((2, True), (0, False))]
+No assignment satisfies exactly 1 clauses.
+
+Test Case 12:
+Number of Variables: 6, Number of Clauses: 11, k: 9
+Generated Clauses: [((4, True), (2, False)), ((3, True), (1, False)), ((1, True), (5, True)), ((2, False), (0, True)), ((1, False), (2, True)), ((1, False), (2, False)), ((2, True), (1, False)), ((0, False), (2, True)), ((3, True), (5, False)), ((2, True), (1, False)), ((2, False), (0, False))]
+Assignment satisfying exactly 9 clauses: (False, False, True, False, True, False)
+
+Test Case 13:
+Number of Variables: 4, Number of Clauses: 7, k: 3
+Generated Clauses: [((0, True), (2, False)), ((2, False), (1, False)), ((1, False), (2, False)), ((1, True), (0, False)), ((2, False), (0, True)), ((0, False), (3, False)), ((2, False), (3, False))]
+Assignment satisfying exactly 3 clauses: (False, True, True, False)
 
 Test Case 14:
-Number of Variables: 5, Number of Clauses: 6, k: 5
-Generated Clauses: [((3, True), (1, True)), ((3, False), (0, False)), ((0, False), (3, True)), ((2, False), (3, True)), ((3, True), (2, False)), ((3, True), (0, False))]
-Assignment satisfying exactly 5 clauses: (False, False, False, False, False)
+Number of Variables: 2, Number of Clauses: 3, k: 1
+Generated Clauses: [((0, False), (1, False)), ((0, True), (1, True)), ((1, True), (0, False))]
+No assignment satisfies exactly 1 clauses.
 
 Test Case 15:
-Number of Variables: 3, Number of Clauses: 5, k: 4
-Generated Clauses: [((2, True), (1, False)), ((2, True), (0, True)), ((2, True), (0, False)), ((2, True), (1, True)), ((1, False), (0, False))]
-Assignment satisfying exactly 4 clauses: (True, True, True)
+Number of Variables: 4, Number of Clauses: 8, k: 1
+Generated Clauses: [((0, False), (3, False)), ((0, True), (1, False)), ((1, True), (3, True)), ((3, False), (0, True)), ((3, False), (1, True)), ((1, True), (0, True)), ((0, False), (1, True)), ((2, True), (3, True))]
+No assignment satisfies exactly 1 clauses.
 
 Test Case 16:
-Number of Variables: 6, Number of Clauses: 7, k: 1
-Generated Clauses: [((5, True), (2, True)), ((5, True), (1, True)), ((5, True), (1, True)), ((0, False), (2, False)), ((1, False), (4, False)), ((5, True), (3, True)), ((3, False), (4, True))]
-No assignment satisfies exactly 1 clauses.
+Number of Variables: 3, Number of Clauses: 4, k: 3
+Generated Clauses: [((0, True), (2, True)), ((1, True), (2, True)), ((0, True), (2, True)), ((0, False), (1, True))]
+Assignment satisfying exactly 3 clauses: (True, False, True)
 
 Test Case 17:
-Number of Variables: 4, Number of Clauses: 5, k: 1
-Generated Clauses: [((2, True), (0, True)), ((3, True), (0, False)), ((1, True), (0, False)), ((1, True), (3, True)), ((1, False), (3, False))]
-No assignment satisfies exactly 1 clauses.
+Number of Variables: 3, Number of Clauses: 6, k: 4
+Generated Clauses: [((1, False), (2, True)), ((1, False), (0, False)), ((2, False), (1, False)), ((1, True), (0, True)), ((0, True), (1, True)), ((0, True), (1, False))]
+Assignment satisfying exactly 4 clauses: (False, False, False)
 
 Test Case 18:
-Number of Variables: 5, Number of Clauses: 6, k: 2
-Generated Clauses: [((4, False), (1, False)), ((2, False), (3, True)), ((3, True), (0, False)), ((0, True), (3, False)), ((1, False), (4, True)), ((4, True), (1, False))]
-Assignment satisfying exactly 2 clauses: (True, True, True, False, False)
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Generated Clauses: [((1, False), (0, False)), ((0, False), (1, True)), ((0, False), (1, False))]
+Assignment satisfying exactly 2 clauses: (True, False)
 
 Test Case 19:
-Number of Variables: 6, Number of Clauses: 11, k: 8
-Generated Clauses: [((0, False), (4, False)), ((1, False), (5, True)), ((4, True), (2, False)), ((4, False), (2, False)), ((1, True), (0, True)), ((3, True), (4, False)), ((3, True), (5, False)), ((4, False), (0, False)), ((3, True), (0, True)), ((1, True), (3, False)), ((5, True), (3, False))]
-Assignment satisfying exactly 8 clauses: (False, False, False, False, False, True)
+Number of Variables: 3, Number of Clauses: 4, k: 3
+Generated Clauses: [((0, False), (1, True)), ((1, False), (0, True)), ((2, False), (1, True)), ((1, False), (0, False))]
+Assignment satisfying exactly 3 clauses: (False, False, True)
 
 Test Case 20:
-Number of Variables: 4, Number of Clauses: 5, k: 1
-Generated Clauses: [((1, True), (0, True)), ((0, True), (1, False)), ((1, True), (0, True)), ((2, False), (0, False)), ((2, False), (3, True))]
-No assignment satisfies exactly 1 clauses.
+Number of Variables: 3, Number of Clauses: 4, k: 3
+Generated Clauses: [((2, False), (0, False)), ((2, False), (1, True)), ((2, False), (1, False)), ((1, False), (0, True))]
+Assignment satisfying exactly 3 clauses: (False, False, True)
 

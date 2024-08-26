@@ -1,0 +1,120 @@
+Test Case 1:
+Number of Variables: 6, Number of Clauses: 12, k: 6
+Generated Clauses: [((4, False), (0, True)), ((3, False), (4, True)), ((0, False), (2, False)), ((1, True), (5, True)), ((0, False), (2, False)), ((1, True), (4, True)), ((0, False), (5, True)), ((5, True), (1, True)), ((4, True), (1, True)), ((4, False), (2, True)), ((2, True), (0, False)), ((4, False), (0, False))]
+Assignment: [False, True, False, False, True, False]
+Satisfied Clauses: 10/12
+
+Test Case 2:
+Number of Variables: 2, Number of Clauses: 4, k: 3
+Generated Clauses: [((1, False), (0, False)), ((1, True), (0, False)), ((1, True), (0, False)), ((0, False), (1, True))]
+Assignment: [False, True]
+Satisfied Clauses: 4/4
+
+Test Case 3:
+Number of Variables: 6, Number of Clauses: 8, k: 5
+Generated Clauses: [((4, False), (2, False)), ((5, False), (2, True)), ((1, False), (3, False)), ((4, True), (0, False)), ((0, True), (1, False)), ((3, False), (2, True)), ((4, False), (3, True)), ((3, False), (4, True))]
+Assignment: [True, False, False, False, True, False]
+Satisfied Clauses: 7/8
+
+Test Case 4:
+Number of Variables: 3, Number of Clauses: 5, k: 3
+Generated Clauses: [((2, True), (0, False)), ((0, False), (1, True)), ((1, False), (2, True)), ((1, True), (2, True)), ((2, False), (0, False))]
+Assignment: [False, False, True]
+Satisfied Clauses: 5/5
+
+Test Case 5:
+Number of Variables: 2, Number of Clauses: 3, k: 2
+Generated Clauses: [((0, False), (1, False)), ((0, False), (1, False)), ((0, False), (1, False))]
+Assignment: [False, False]
+Satisfied Clauses: 3/3
+
+Test Case 6:
+Number of Variables: 6, Number of Clauses: 10, k: 3
+Generated Clauses: [((4, False), (3, False)), ((3, False), (4, False)), ((4, True), (2, True)), ((3, False), (5, False)), ((4, False), (3, True)), ((0, False), (1, False)), ((5, False), (1, True)), ((5, False), (0, False)), ((2, True), (1, True)), ((5, True), (0, True))]
+Assignment: [False, False, False, False, True, False]
+Satisfied Clauses: 7/10
+
+Test Case 7:
+Number of Variables: 5, Number of Clauses: 6, k: 4
+Generated Clauses: [((1, False), (4, True)), ((2, True), (1, False)), ((3, False), (2, True)), ((0, False), (3, False)), ((2, False), (0, False)), ((0, True), (2, False))]
+Assignment: [False, False, True, False, False]
+Satisfied Clauses: 5/6
+
+Test Case 8:
+Number of Variables: 5, Number of Clauses: 8, k: 7
+Generated Clauses: [((1, True), (3, False)), ((1, True), (2, False)), ((3, True), (1, False)), ((4, False), (1, True)), ((0, True), (1, True)), ((4, True), (1, True)), ((0, True), (1, False)), ((0, False), (2, False))]
+Assignment: [True, True, False, True, True]
+Satisfied Clauses: 8/8
+
+Test Case 9:
+Number of Variables: 3, Number of Clauses: 6, k: 5
+Generated Clauses: [((0, True), (2, False)), ((2, False), (0, False)), ((1, True), (2, False)), ((2, False), (0, True)), ((0, False), (1, True)), ((2, True), (0, False))]
+Assignment: [True, True, False]
+Satisfied Clauses: 5/6
+
+Test Case 10:
+Number of Variables: 3, Number of Clauses: 5, k: 4
+Generated Clauses: [((2, False), (1, False)), ((2, False), (1, True)), ((2, False), (0, True)), ((2, False), (0, True)), ((0, False), (2, True))]
+Assignment: [False, False, False]
+Satisfied Clauses: 5/5
+
+Test Case 11:
+Number of Variables: 6, Number of Clauses: 10, k: 10
+Generated Clauses: [((2, False), (1, False)), ((1, False), (5, True)), ((3, False), (4, True)), ((5, True), (0, True)), ((3, True), (0, True)), ((0, False), (5, True)), ((4, False), (1, False)), ((0, True), (5, False)), ((2, True), (1, False)), ((2, False), (3, True))]
+Assignment: [True, False, True, True, False, True]
+Satisfied Clauses: 9/10
+
+Test Case 12:
+Number of Variables: 3, Number of Clauses: 6, k: 5
+Generated Clauses: [((1, False), (2, True)), ((2, False), (1, True)), ((2, True), (0, False)), ((2, False), (1, False)), ((1, False), (0, False)), ((2, True), (0, True))]
+Assignment: [False, False, True]
+Satisfied Clauses: 5/6
+
+Test Case 13:
+Number of Variables: 5, Number of Clauses: 10, k: 8
+Generated Clauses: [((1, False), (2, True)), ((3, True), (1, True)), ((0, True), (1, False)), ((0, False), (1, False)), ((4, False), (1, False)), ((1, True), (4, False)), ((1, True), (4, False)), ((4, False), (3, True)), ((4, True), (0, False)), ((2, False), (4, False))]
+Assignment: [True, True, False, True, False]
+Satisfied Clauses: 7/10
+
+Test Case 14:
+Number of Variables: 6, Number of Clauses: 10, k: 2
+Generated Clauses: [((1, True), (4, True)), ((0, False), (2, False)), ((2, True), (4, False)), ((4, True), (0, False)), ((2, True), (1, True)), ((0, False), (1, True)), ((1, True), (4, False)), ((0, False), (4, False)), ((2, True), (5, True)), ((3, False), (4, True))]
+Assignment: [False, True, False, False, False, False]
+Satisfied Clauses: 9/10
+
+Test Case 15:
+Number of Variables: 3, Number of Clauses: 6, k: 4
+Generated Clauses: [((0, True), (1, True)), ((2, False), (0, True)), ((1, False), (0, False)), ((1, False), (0, False)), ((2, True), (1, True)), ((1, True), (0, True))]
+Assignment: [True, False, False]
+Satisfied Clauses: 5/6
+
+Test Case 16:
+Number of Variables: 2, Number of Clauses: 4, k: 2
+Generated Clauses: [((1, True), (0, False)), ((1, True), (0, False)), ((1, True), (0, False)), ((1, True), (0, True))]
+Assignment: [False, True]
+Satisfied Clauses: 4/4
+
+Test Case 17:
+Number of Variables: 6, Number of Clauses: 8, k: 1
+Generated Clauses: [((3, False), (5, False)), ((4, False), (1, False)), ((0, False), (3, False)), ((3, False), (5, True)), ((2, False), (0, False)), ((5, True), (2, True)), ((4, True), (1, True)), ((2, True), (4, False))]
+Assignment: [False, False, False, False, False, False]
+Satisfied Clauses: 6/8
+
+Test Case 18:
+Number of Variables: 3, Number of Clauses: 4, k: 2
+Generated Clauses: [((2, False), (0, True)), ((0, True), (2, False)), ((1, False), (2, True)), ((2, True), (0, False))]
+Assignment: [True, False, False]
+Satisfied Clauses: 3/4
+
+Test Case 19:
+Number of Variables: 2, Number of Clauses: 4, k: 4
+Generated Clauses: [((1, False), (0, True)), ((1, True), (0, True)), ((1, True), (0, False)), ((0, False), (1, False))]
+Assignment: [False, True]
+Satisfied Clauses: 3/4
+
+Test Case 20:
+Number of Variables: 2, Number of Clauses: 4, k: 4
+Generated Clauses: [((0, True), (1, True)), ((0, False), (1, False)), ((0, True), (1, True)), ((0, False), (1, False))]
+Assignment: [True, True]
+Satisfied Clauses: 2/4
+
